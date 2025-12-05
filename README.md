@@ -108,9 +108,7 @@ Deploy for free on:
 ## 🌍 Impact Potential
 
 ### Target Audience
-- **15+ million** high school students in the US
-- **60+ million** globally
-- Particularly valuable for students without access to school counselors
+- **High School Students struggling with mental health**
 
 ### Accessibility
 - ✅ No cost barrier
@@ -134,7 +132,6 @@ Deploy for free on:
 - [ ] **Expanded Exercises** - Progressive muscle relaxation, journaling prompts
 - [ ] **Peer Community** - Anonymous forum for student support
 - [ ] **School Integration** - Resources for counselors and educators
-- [ ] **Multilingual Support** - Reach students in their native language
 - [ ] **Offline PWA** - Progressive Web App for offline access
 - [ ] **Custom Affirmations** - Let users create personal motivational messages
 
@@ -206,3 +203,4 @@ Built with ❤️ for high school students everywhere.
 **Remember: You matter. Take time for yourself today.** ❤️
 
 </div>
+
