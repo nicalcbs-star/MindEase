@@ -163,12 +163,6 @@ If you'd like to contribute:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - Mental health statistics from American Psychological Association
@@ -203,4 +197,5 @@ Built with ❤️ for high school students everywhere.
 **Remember: You matter. Take time for yourself today.** ❤️
 
 </div>
+
 
