@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindEase</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>MindEase</h1>
+        <p>Your quick stress check-in for high school students</p>
+    </header>
+
+    <section id="checkin">
+        <h2>How are you feeling today?</h2>
+        <select id="moodSelect">
+            <option value="">Select your mood...</option>
+            <option value="overwhelmed">😟 Overwhelmed</option>
+            <option value="sad">😔 Sad</option>
+            <option value="neutral">😐 Just okay</option>
+            <option value="good">🙂 Good</option>
+        </select>
+        <button id="showSupport">Show Support</button>
+
+        <div id="supportMessage" class="hidden"></div>
+
+        <div id="breathingExercise" class="hidden">
+            <h3>Try a 30-second breathing exercise</h3>
+            <div id="circle"></div>
+            <p id="breathingText">Breathe In...</p>
+        </div>
+    </section>
+
+    <section id="motivational">
+        <h2>Need Some Motivation?</h2>
+        <button id="newQuote">Get a Motivational Quote</button>
+        <p id="quoteArea"></p>
+    </section>
+
+    <section id="timer">
+        <div id="timerSection">
+            <h2>Need to Focus?</h2>
+            <button id="startTimer">Start 5-Minute Focus Timer</button>
+            <p id="timerDisplay"></p>
+        </div>
+    </section>
+
+    <section id="resources">
+        <h2>Helpful Resources</h2>
+        <ul>
+            <li><a href="tel:988">988 - Suicide & Crisis Lifeline</a></li>
+            <li><a href="https://www.crisistextline.org/" target="_blank">Crisis Text Line</a></li>
+            <li><a href="https://www.mhanational.org/" target="_blank">Mental Health America</a></li>
+            <li><a href="https://www.nimh.nih.gov" target="_blank">National Institute of Mental Health</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>You matter. Take time for yourself today ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

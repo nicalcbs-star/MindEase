@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f0f7ff;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #92c9ff;
+}
+
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+select, button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #92c9ff;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button {
+    background: #92c9ff;
+    color: #222;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #7ab8ee;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+select {
+    min-width: 200px;
+    margin-right: 1rem;
+}
+
+#supportMessage {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #dff3ff;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hidden {
+    display: none;
+}
+
+/* Breathing Exercise */
+#breathingExercise {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#circle {
+    width: 120px;
+    height: 120px;
+    margin: 1rem auto;
+    border-radius: 50%;
+    background: #92c9ff;
+    animation: breathe 6s infinite ease-in-out;
+}
+
+@keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
+
+#breathingText {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Motivational Section */
+#motivational {
+    text-align: center;
+}
+
+#quoteArea {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    min-height: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Timer Section */
+#timer {
+    text-align: center;
+}
+
+#timerDisplay {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #92c9ff;
+    min-height: 50px;
+}
+
+/* Resources */
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources li {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+#resources li:hover {
+    transform: translateX(10px);
+}
+
+#resources a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#resources a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    background: #92c9ff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 1rem 0;
+    }
+    
+    select, button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    
+    select {
+        margin-right: 0;
+    }
+}
